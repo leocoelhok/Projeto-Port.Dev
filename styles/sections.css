@@ -1,0 +1,32 @@
+#intro {
+    height: 750px;
+    width: 100%;
+    background-image: url(../assets/Background_Intro.png);
+    background-attachment: fixed;
+    background-size: cover;
+    position: absolute;
+    z-index: 0;
+    display: grid;
+    justify-items: center;
+    
+    div {
+        /* background-color: white; */
+        height: 200px;
+        position: relative;
+        z-index: 1;
+        width: 680px;
+        height: 327px;
+        text-align: center;
+    }
+}
+
+section header{
+    justify-content: center;
+    margin-top: 5px;
+    p{
+        justify-self: center;
+    }
+    img{
+        justify-self: center;
+    }
+}

@@ -1,0 +1,49 @@
+/* utility-first */
+.grid{
+    display: grid;
+}
+
+.gap-16{
+    gap: 16px;
+}
+
+.margin-56{
+    margin-top: 56px;
+}
+
+.margin-120{
+    margin-top: 120px;
+}
+
+
+.subtitle{
+    font: var(--subtitle);
+    color: var(--gray-200);
+}
+
+.subtitle-red{
+    font: var(--subtitle);
+    color: var(--red);
+}
+
+h1{
+    margin-top: 8px;
+    font: var(--title-lg);
+    color: var(--gray-100);
+    justify-self: center;
+    margin-bottom: 20px;
+}
+
+.text-sm{
+    font: var(--text-sm);
+    color: var(--gray-300);
+}
+
+.profile-pic{
+    border-radius: 50%;
+    object-fit: cover;
+    width: 87.27px;
+    height: 87.27px;
+    display: block;
+    margin: 0 auto 20px auto;
+}

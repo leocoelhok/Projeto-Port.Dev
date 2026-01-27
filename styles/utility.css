@@ -7,9 +7,10 @@
     gap: 16px;
 }
 
-.margin-56{
-    margin-top: 56px;
+.margin-94{
+    margin-top: 94px;
 }
+
 
 .margin-120{
     margin-top: 120px;
@@ -39,11 +40,26 @@ h1{
     color: var(--gray-300);
 }
 
-.profile-pic{
-    border-radius: 50%;
-    object-fit: cover;
-    width: 87.27px;
-    height: 87.27px;
-    display: block;
-    margin: 0 auto 20px auto;
+.container {
+      display: flex;
+      gap: 16px; 
+      flex-wrap: wrap;
 }
+
+.tag {
+      background-color: #29292e; 
+      color: var(--gray-200);
+      padding: 8px 22px; 
+      border-radius: 50px; 
+      display: flex;
+      align-items: center;
+      gap: 10px; 
+      font-size: 14px;
+      font-weight: 500;
+      height: fit-content;
+      font: var(--text-md);
+}
+
+/* .tags{
+    margin-top: -80px;
+} */

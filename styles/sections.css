@@ -9,7 +9,9 @@
     display: grid;
     justify-items: center;
     
-    div {
+}
+
+.info {
         /* background-color: white; */
         height: 200px;
         position: relative;
@@ -18,6 +20,12 @@
         height: 327px;
         text-align: center;
     }
+
+.profile-container{
+    position: relative; 
+    display: inline-block; 
+    margin-bottom: 20px; 
+    color: aliceblue;
 }
 
 section header{
@@ -29,4 +37,41 @@ section header{
     img{
         justify-self: center;
     }
+}
+
+.profile-pic{
+    border-radius: 50%;
+    object-fit: cover;
+    width: 87.27px;
+    height: 87.27px;
+    display: block;
+    margin: 0 auto 20px auto;
+    border: 3px solid var(--red); 
+    padding: 3px; 
+}
+
+.icon-code{
+    position: absolute; 
+    bottom: 18px;        
+    left: 60px;
+    
+    
+    border-radius: 50%;
+    width: 31px; 
+    height: 25px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(/assets/icons/html-icon.jpg);
+    background-size: 100%; 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#projects{
+    height: 750px;
+    width: 100%;
+    background-color: 878EA1;
 }

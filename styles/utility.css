@@ -26,6 +26,11 @@
     color: var(--red);
 }
 
+.subtitle-purple{
+    font: var(--subtitle);
+    color: var(--purple);
+}
+
 h1{
     margin-top: 8px;
     font: var(--title-lg);
@@ -37,6 +42,11 @@ h1{
 .text-sm{
     font: var(--text-sm);
     color: var(--gray-300);
+}
+
+.text-md{
+    font: var(--text-md);
+    color: var(--gray-200);
 }
 
 .container {

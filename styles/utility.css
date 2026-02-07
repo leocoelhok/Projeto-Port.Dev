@@ -11,7 +11,6 @@
     margin-top: 94px;
 }
 
-
 .margin-120{
     margin-top: 120px;
 }
@@ -60,6 +59,11 @@ h1{
       font: var(--text-md);
 }
 
+.title-md{
+    font: var(--title-md);
+    color: var(--gray-100);
+    margin-top: 8px;
+}
 /* .tags{
     margin-top: -80px;
 } */
